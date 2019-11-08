@@ -3,7 +3,7 @@ import React from "react";
 
 const footer = (props) =>{
     return(
-        <button src={props.spaceImg.hdurl}>View in HD</button>
+        <button href={props.spaceImg.hdurl}>View in HD</button>
        
     );
 };
